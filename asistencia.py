@@ -8,6 +8,7 @@ def registrar_asistencia(): #funcio registrar asistencia
     etiqueta_resultado.config(text=f"Asistencia registrada para: {nombre_empleado} a las {hora_actual}") #se guarda el metodo with open en el archivo asistencia.txt
 
 ventana = tk.Tk() #se crea la ventana
+ventana.geometry('300x100')
 campo_texto = tk.Entry(ventana)
 campo_texto.pack()
 
